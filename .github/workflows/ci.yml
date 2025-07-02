@@ -3,7 +3,7 @@ on: workflow_dispatch
 jobs:
   first-run:
     steps:
-    ruruns-on: ubuntu-latest
+    runs-on: ubuntu-latest
       - name: print name
         run: echo "vinay running first job"
       - name: echo good bye
