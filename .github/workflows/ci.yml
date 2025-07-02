@@ -2,9 +2,9 @@ name: actions
 on: workflow_dispatch
 jobs:
   first-run:
-    steps:
     runs-on: ubuntu-latest
+    steps:
       - name: print name
         run: echo "vinay running first job"
       - name: echo good bye
-        rub echo "Good bye"
+        run: echo "Good bye"
